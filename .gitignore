@@ -1,0 +1,7 @@
+# Ignore generated outputs directory at repo root
+/outputs/
+ 
+# Ignore local cache directory at repo root
+/.cache/
+/.cookies/
+
