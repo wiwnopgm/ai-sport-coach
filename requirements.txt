@@ -1,0 +1,20 @@
+# Core (pinned to avoid numpy<2 conflicts)
+numpy==1.26.4
+opencv-python==4.10.0.84
+matplotlib==3.8.4
+pandas==2.2.2
+scipy==1.11.4
+ffmpeg-python==0.2.0
+
+# Downloading YouTube videos (keep recent to avoid YouTube signature breakages)
+yt-dlp>=2025.8.11
+
+# Ultralytics YOLO (v8) for detect/segment/pose
+ultralytics==8.3.30
+
+# PyTorch (pin to widely compatible versions; Apple Silicon uses MPS when available)
+torch==2.1.0
+torchvision==0.16.0
+
+# Optional utilities
+rich==13.7.1
